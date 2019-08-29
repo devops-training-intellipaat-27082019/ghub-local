@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+node{}
+=======
+node{(code-maven)
+stage('prep')
+{
+}
+node{
+maven{}
+}
+}
+>>>>>>> 94ead5ecd02f02fecfaea890c8aff3a91ed7be04
