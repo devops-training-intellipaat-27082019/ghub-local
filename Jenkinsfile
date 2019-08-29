@@ -1,19 +1,11 @@
-node{
-(code-maven)
-stage('prep')
-{
-node('maven-label')
-{
+node('maven-label'){
 stage('prep'){
 }
-}
-}
-stage(){
+stage('build'){
 }
 stage(){
 }
 stage(){
-}
 }
 }
 
